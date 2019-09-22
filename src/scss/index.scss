@@ -94,7 +94,6 @@ p {
     margin: 1rem;
     background-color: lightgray;
     border-radius: 5px; 
-
 }
 
 button {
@@ -103,4 +102,23 @@ button {
     font-size: 1rem;
     border: none;
     border-radius: 5px; 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prague {
+    border-bottom: 1px solid black;
+    width: 100vw;
+    text-align: center;
+}
+
+.copyright {
+    background-color: darkgray;
+    width: 100vw;
+    text-align: center;
+    color: lightgray;
 }
